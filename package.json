@@ -1,0 +1,12 @@
+{
+  "name": "@jvdtickets/common",
+  "version": "1.0.0",
+  "description": "A common module.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "th3c0d3br34ker",
+  "license": "ISC"
+}
