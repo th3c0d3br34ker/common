@@ -10,7 +10,6 @@
   "scripts": {
     "build": "tsc",
     "prepublish": "git add . && git commit -m \"updates\"",
-    "preversion": "npm version patch",
     "publish": "npm publish"
   },
   "keywords": [],
