@@ -1,6 +1,6 @@
 {
   "name": "@jvdtickets/common",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "description": "A common module.",
   "main": "./build/index.js",
   "types": "./build/index.d.ts",
