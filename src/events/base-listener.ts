@@ -12,7 +12,7 @@ abstract class Listener<T extends Events> {
   abstract queueGroupName: string;
   abstract onMessage(data: T['data'], msg: Message): void;
 
-  private client: Stan;
+  protected client: Stan;
   protected ackWait = 5 * 100;
 
   constructor(client: Stan) {
