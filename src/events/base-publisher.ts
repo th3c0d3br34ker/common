@@ -1,5 +1,5 @@
 import { log } from 'console';
-import { Message, Stan } from 'node-nats-streaming';
+import { Stan } from 'node-nats-streaming';
 import { Subjects } from './subjects';
 
 interface Events {
@@ -9,7 +9,6 @@ interface Events {
 
 abstract class Publisher<T extends Events> {
   abstract subject: T['subject'];
-  abstract queueGroupName: string;
   private client: Stan;
 
   constructor(client: Stan) {
